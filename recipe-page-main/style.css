@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: #f4e5de;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Outfit", sans-serif;
+    width: 100%;
+    
+}
+
+h1, h2{
+    font-family: "Young Serif", sans-serif;
+    font-weight: 400;
+}
+
+body p, body li {
+    font-size: 16px;
+    opacity: 0.85;
+}
+
+main {
+
+    margin: 40px 20px;
+    width: 50%;
+    align-items: center;
+    background-color: #fff7fc;
+    border-radius: 20px;
+}
+
+
+#imagem {
+    width: 94%;
+    padding: 3% 2.5%;
+    border-radius: 30px;
+    max-width: 1000px;
+}
+
+.content {
+    padding: 0px 30px;
+
+}
+
+
+.title{
+    font-size: 32px;
+    padding-bottom: 15px;
+
+}
+
+#Title {
+    margin-bottom: 25px;
+}
+
+#PreparationTime{
+    padding: 25px 15px; 
+}
+
+h3 {
+    font-weight: 700;
+    color: #94476b;
+    margin-bottom: 5px;
+}
+
+#PreparationTime ul {
+    padding: 10px 30px; 
+}
+
+li {
+    padding: 10px 0;
+}
+
+span {
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+
+h2{
+    color: #804b40;
+    margin-bottom: 10px;
+}
+
+#Ingredients {
+    margin-bottom: 15px;
+}
+
+#Ingredients ul {
+    color: #73443b;
+    padding-left: 30px;
+    
+}
+
+#Ingredients li {
+    padding-left: 15px;
+    color: black;
+}
+
+hr {
+    opacity: 0.5;
+}
+
+#Instruction {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#Instruction ol {
+    padding-left: 20px;
+    color: #73443b;
+}
+
+#Instruction li {
+    color: black;
+}
+
+#Nutrition {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#Nutrition table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+#Nutrition td {
+    padding: 10px 10%;
+    border-bottom: 1px solid rgb(197, 197, 197);
+    
+}
+
+#Nutrition .calorias{
+    font-weight: 800;
+    color: #73443b;
+}
+
+
+@media (max-width: 375px) {
+    body {
+      font-size: 14px;
+    }
+  
+    main {
+      width: 100%;
+      margin: 20px;
+    }
+  
+    #imagem {
+      width: 100%;
+      border-radius: 0; 
+    }
+  
+    .content {
+      padding: 0 10px;
+    }
+  
+
+  }
+

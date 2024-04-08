@@ -58,10 +58,13 @@ main {
 }
 
 #PreparationTime{
-    padding: 25px 15px; 
+    background-color: #fff0f7;
+    padding: 15px 15px; 
+    margin-bottom: 10px;
 }
 
-h3 {
+label {
+    font-size: 18px;
     font-weight: 700;
     color: #94476b;
     margin-bottom: 5px;

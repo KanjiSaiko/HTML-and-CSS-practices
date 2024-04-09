@@ -84,14 +84,12 @@ a{
     text-decoration: none;
 }
 
-.attribution {
-    
-}
 
-@media (max-width: 768px), (max-height: 600px){
+@media (max-height: 600px){
     main{
+        margin: 90px auto;
         width: 300px;
-        height: 400px;
+        height: 380px;
     }
 
     #profile {
@@ -110,6 +108,7 @@ a{
     }
 
     button {
+        margin: 15px auto;
         width: 230px;
         height: 30px;
     }
@@ -118,11 +117,21 @@ a{
         margin-bottom: 5px;
     }
 
-    h1, h2, legend {
-        font-size: 12px;
+    h1{
+        font-size: 16px;
+    }
+
+    h2 {
+        font-size: 13px;
+    }
+
+    legend {
+        font-size: 10px;
     }
 
     img{
+        margin: 25px auto;
+        border-radius: 40px;
         width: 70px;
     }
 } 

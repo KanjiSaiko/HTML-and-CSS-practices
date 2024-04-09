@@ -1,0 +1,128 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #151415;
+    font-family: "Inter", sans-serif;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+main {
+    margin: 17vh auto;
+    background-color: #1f1f1f;
+    border-radius: 20px;
+    width: 50vh;
+    height: 65vh;
+}
+#profile {
+    width: 40vh;
+    margin: auto;
+    text-align: center;
+}
+
+img {
+    display: block;
+    width: 12vh;
+    margin: 5vh auto;
+    border-radius: 10dvb;
+}
+
+h1{
+    font-size: 3vh;
+    margin: 1vh;
+    color: white;
+}
+
+h2 {
+    font-size: 2vh;
+    color: #beda50;
+    font-weight: 700;
+}
+
+legend {
+    color: white;
+    font-size: 1.6vh;
+}
+
+
+
+#buttons {
+    width: 45vh;
+    height: 45vh;
+    align-items: center;
+    margin: auto;
+    min-height: 5vh;
+    min-width: 30vh;
+}
+
+button {
+    border: none;
+    display: block;
+    opacity: 0.8;
+    margin: 2vh auto;
+    width: 40vh;
+    border-radius: 10px;
+    height: 5.4vh; 
+    color: white;
+    background-color: #3E3E3E;
+    font-weight: 800;
+}
+
+button:hover {
+    background-color: #7F7F7F;
+    cursor: pointer;
+}
+
+a{
+    min-height: 5vh;
+    min-width: 30vh; 
+    
+    text-decoration: none;
+}
+
+.attribution {
+    
+}
+
+@media (max-width: 768px), (max-height: 600px){
+    main{
+        width: 300px;
+        height: 400px;
+    }
+
+    #profile {
+        width: 250px;
+    }
+
+    #buttons {
+        
+        width: 250px;
+        height: 170px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+
+    button {
+        width: 230px;
+        height: 30px;
+    }
+
+    a {
+        margin-bottom: 5px;
+    }
+
+    h1, h2, legend {
+        font-size: 12px;
+    }
+
+    img{
+        width: 70px;
+    }
+} 
